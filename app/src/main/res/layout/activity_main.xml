@@ -1,0 +1,45 @@
+<!--
+  ~ Copyright (c) 2015-2015 by Shanghai shootbox Information Technology Co., Ltd.
+  ~ Create: 2015/10/15 6:36:23
+  ~ Project: TTT
+  ~ File: activity_main.xml
+  ~ Class: activity_main.xml
+  ~ Module: app
+  ~ Author: yangyankai
+  ~ Version: 1.0
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/btn_amateur"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_above="@+id/btn_profession"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-140dp"
+        android:layout_marginBottom="79dp"
+        android:background="#0f0"
+        android:gravity="right"
+        android:text="业余"/>
+
+    <TextView
+        android:id="@+id/btn_profession"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="-70dp"
+        android:layout_alignLeft="@+id/btn_amateur"
+        android:layout_alignStart="@+id/btn_amateur"
+        android:layout_centerVertical="true"
+        android:background="#0f0"
+        android:gravity="right"
+        android:text="专业"/>
+
+</LinearLayout>
